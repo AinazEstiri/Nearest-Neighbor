@@ -1,0 +1,415 @@
+----------------------------------------------------------------------------------------------------------------
+Forward Select Trace of our personal small dataset 50
+----------------------------------------------------------------------------------------------------------------
+Adding features to (0.84, set())
+Features {0} have accuracy 0.87
+Features {1} have accuracy 0.73
+Features {2} have accuracy 0.69
+Features {3} have accuracy 0.67
+Features {4} have accuracy 0.77
+Features {5} have accuracy 0.76
+Features {6} have accuracy 0.77
+Features {7} have accuracy 0.76
+Features {8} have accuracy 0.74
+Features {9} have accuracy 0.73
+(0.87, {0}) is best choice
+
+
+Adding features to (0.87, {0})
+Features {0, 1} have accuracy 0.75
+Features {0, 2} have accuracy 0.78
+Features {0, 3} have accuracy 0.77
+Features {0, 4} have accuracy 0.77
+Features {0, 5} have accuracy 0.8
+Features {0, 6} have accuracy 0.82
+Features {0, 7} have accuracy 0.89
+Features {0, 8} have accuracy 0.79
+Features {0, 9} have accuracy 0.75
+(0.89, {0, 7}) is best choice
+
+
+Adding features to (0.89, {0, 7})
+Features {0, 1, 7} have accuracy 0.84
+Features {0, 2, 7} have accuracy 0.86
+Features {0, 3, 7} have accuracy 0.88
+Features {0, 4, 7} have accuracy 0.82
+Features {0, 5, 7} have accuracy 0.85
+Features {0, 6, 7} have accuracy 0.9
+Features {0, 8, 7} have accuracy 0.81
+Features {0, 9, 7} have accuracy 0.83
+(0.9, {0, 6, 7}) is best choice
+
+
+Adding features to (0.9, {0, 6, 7})
+Features {0, 1, 6, 7} have accuracy 0.83
+Features {0, 2, 6, 7} have accuracy 0.89
+Features {0, 3, 6, 7} have accuracy 0.86
+Features {0, 4, 6, 7} have accuracy 0.84
+Features {0, 5, 6, 7} have accuracy 0.86
+Features {0, 8, 6, 7} have accuracy 0.81
+Features {0, 9, 6, 7} have accuracy 0.87
+(0.89, {0, 2, 6, 7}) is best choice
+
+
+Adding features to (0.89, {0, 2, 6, 7})
+Features {0, 1, 2, 6, 7} have accuracy 0.82
+Features {0, 2, 3, 6, 7} have accuracy 0.81
+Features {0, 2, 4, 6, 7} have accuracy 0.78
+Features {0, 2, 5, 6, 7} have accuracy 0.77
+Features {0, 2, 6, 7, 8} have accuracy 0.8
+Features {0, 2, 6, 7, 9} have accuracy 0.81
+(0.82, {0, 1, 2, 6, 7}) is best choice
+
+
+Adding features to (0.82, {0, 1, 2, 6, 7})
+Features {0, 1, 2, 3, 6, 7} have accuracy 0.76
+Features {0, 1, 2, 4, 6, 7} have accuracy 0.76
+Features {0, 1, 2, 5, 6, 7} have accuracy 0.79
+Features {0, 1, 2, 6, 7, 8} have accuracy 0.77
+Features {0, 1, 2, 6, 7, 9} have accuracy 0.81
+(0.81, {0, 1, 2, 6, 7, 9}) is best choice
+
+
+Adding features to (0.81, {0, 1, 2, 6, 7, 9})
+Features {0, 1, 2, 3, 6, 7, 9} have accuracy 0.73
+Features {0, 1, 2, 4, 6, 7, 9} have accuracy 0.74
+Features {0, 1, 2, 5, 6, 7, 9} have accuracy 0.75
+Features {0, 1, 2, 6, 7, 8, 9} have accuracy 0.76
+(0.76, {0, 1, 2, 6, 7, 8, 9}) is best choice
+
+
+Adding features to (0.76, {0, 1, 2, 6, 7, 8, 9})
+Features {0, 1, 2, 3, 6, 7, 8, 9} have accuracy 0.71
+Features {0, 1, 2, 4, 6, 7, 8, 9} have accuracy 0.78
+Features {0, 1, 2, 5, 6, 7, 8, 9} have accuracy 0.78
+(0.78, {0, 1, 2, 4, 6, 7, 8, 9}) is best choice
+
+
+Adding features to (0.78, {0, 1, 2, 4, 6, 7, 8, 9})
+Features {0, 1, 2, 3, 4, 6, 7, 8, 9} have accuracy 0.73
+Features {0, 1, 2, 4, 5, 6, 7, 8, 9} have accuracy 0.78
+(0.78, {0, 1, 2, 4, 5, 6, 7, 8, 9}) is best choice
+
+
+(0.77, {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}) is best choice
+
+
+Best option for each depth:
+(0.84, set())
+(0.87, {0})
+(0.89, {0, 7})
+(0.9, {0, 6, 7})
+(0.89, {0, 2, 6, 7})
+(0.82, {0, 1, 2, 6, 7})
+(0.81, {0, 1, 2, 6, 7, 9})
+(0.76, {0, 1, 2, 6, 7, 8, 9})
+(0.78, {0, 1, 2, 4, 6, 7, 8, 9})
+(0.78, {0, 1, 2, 4, 5, 6, 7, 8, 9})
+(0.77, {0, 1, 2, 3, 4, 5, 6, 7, 8, 9})
+
+
+----------------------------------------------------------------------------------------------------------------
+Backwards Elimination Trace of our personal small dataset
+----------------------------------------------------------------------------------------------------------------
+Eliminating features from (0.77, {0, 1, 2, 3, 4, 5, 6, 7, 8, 9})
+Features {1, 2, 3, 4, 5, 6, 7, 8, 9} have accuracy 74.0%
+Features {0, 2, 3, 4, 5, 6, 7, 8, 9} have accuracy 83.0%
+Features {0, 1, 3, 4, 5, 6, 7, 8, 9} have accuracy 73.0%
+Features {0, 1, 2, 4, 5, 6, 7, 8, 9} have accuracy 78.0%
+Features {0, 1, 2, 3, 5, 6, 7, 8, 9} have accuracy 77.0%
+Features {0, 1, 2, 3, 4, 6, 7, 8, 9} have accuracy 73.0%
+Features {0, 1, 2, 3, 4, 5, 7, 8, 9} have accuracy 75.0%
+Features {0, 1, 2, 3, 4, 5, 6, 8, 9} have accuracy 74.0%
+Features {0, 1, 2, 3, 4, 5, 6, 7, 9} have accuracy 70.0%
+Features {0, 1, 2, 3, 4, 5, 6, 7, 8} have accuracy 82.0%
+(0.83, {0, 2, 3, 4, 5, 6, 7, 8, 9}) is best choice
+
+Eliminating features from (0.83, {0, 2, 3, 4, 5, 6, 7, 8, 9})
+Features {2, 3, 4, 5, 6, 7, 8, 9} have accuracy 72.0%
+Features {0, 3, 4, 5, 6, 7, 8, 9} have accuracy 78.0%
+Features {0, 2, 4, 5, 6, 7, 8, 9} have accuracy 82.0%
+Features {0, 2, 3, 5, 6, 7, 8, 9} have accuracy 80.0%
+Features {0, 2, 3, 4, 6, 7, 8, 9} have accuracy 80.0%
+Features {0, 2, 3, 4, 5, 7, 8, 9} have accuracy 79.0%
+Features {0, 2, 3, 4, 5, 6, 8, 9} have accuracy 79.0%
+Features {0, 2, 3, 4, 5, 6, 7, 9} have accuracy 74.0%
+Features {0, 2, 3, 4, 5, 6, 7, 8} have accuracy 78.0%
+(0.82, {0, 2, 4, 5, 6, 7, 8, 9}) is best choice
+
+Eliminating features from (0.82, {0, 2, 4, 5, 6, 7, 8, 9})
+Features {2, 4, 5, 6, 7, 8, 9} have accuracy 80.0%
+Features {0, 4, 5, 6, 7, 8, 9} have accuracy 85.0%
+Features {0, 2, 5, 6, 7, 8, 9} have accuracy 84.0%
+Features {0, 2, 4, 6, 7, 8, 9} have accuracy 80.0%
+Features {0, 2, 4, 5, 7, 8, 9} have accuracy 78.0%
+Features {0, 2, 4, 5, 6, 8, 9} have accuracy 76.0%
+Features {0, 2, 4, 5, 6, 7, 9} have accuracy 77.0%
+Features {0, 2, 4, 5, 6, 7, 8} have accuracy 76.0%
+(0.85, {0, 4, 5, 6, 7, 8, 9}) is best choice
+
+Eliminating features from (0.85, {0, 4, 5, 6, 7, 8, 9})
+Features {4, 5, 6, 7, 8, 9} have accuracy 81.0%
+Features {0, 5, 6, 7, 8, 9} have accuracy 82.0%
+Features {0, 4, 6, 7, 8, 9} have accuracy 78.0%
+Features {0, 4, 5, 7, 8, 9} have accuracy 79.0%
+Features {0, 4, 5, 6, 8, 9} have accuracy 82.0%
+Features {0, 4, 5, 6, 7, 9} have accuracy 81.0%
+Features {0, 4, 5, 6, 7, 8} have accuracy 77.0%
+(0.82, {0, 5, 6, 7, 8, 9}) is best choice
+
+Eliminating features from (0.82, {0, 5, 6, 7, 8, 9})
+Features {5, 6, 7, 8, 9} have accuracy 79.0%
+Features {0, 6, 7, 8, 9} have accuracy 80.0%
+Features {0, 5, 7, 8, 9} have accuracy 82.0%
+Features {0, 5, 6, 8, 9} have accuracy 81.0%
+Features {0, 5, 6, 7, 9} have accuracy 85.0%
+Features {0, 5, 6, 7, 8} have accuracy 82.0%
+(0.85, {0, 5, 6, 7, 9}) is best choice
+
+Eliminating features from (0.85, {0, 5, 6, 7, 9})
+Features {9, 5, 6, 7} have accuracy 83.0%
+Features {0, 9, 6, 7} have accuracy 87.0%
+Features {0, 9, 5, 7} have accuracy 78.0%
+Features {0, 9, 5, 6} have accuracy 77.0%
+Features {0, 5, 6, 7} have accuracy 86.0%
+(0.87, {0, 9, 6, 7}) is best choice
+
+Eliminating features from (0.87, {0, 9, 6, 7})
+Features {9, 6, 7} have accuracy 79.0%
+Features {0, 9, 7} have accuracy 83.0%
+Features {0, 9, 6} have accuracy 79.0%
+Features {0, 6, 7} have accuracy 90.0%
+(0.9, {0, 6, 7}) is best choice
+
+Eliminating features from (0.9, {0, 6, 7})
+Features {6, 7} have accuracy 76.0%
+Features {0, 7} have accuracy 89.0%
+Features {0, 6} have accuracy 82.0%
+(0.89, {0, 7}) is best choice
+
+Eliminating features from (0.89, {0, 7})
+Features {7} have accuracy 76.0%
+Features {0} have accuracy 87.0%
+(0.87, {0}) is best choice
+
+Eliminating features from (0.87, {0})
+Features set() have accuracy 84.0%
+(0.84, set()) is best choice
+
+Best option for each depth:
+(0.77, {0, 1, 2, 3, 4, 5, 6, 7, 8, 9})
+(0.83, {0, 2, 3, 4, 5, 6, 7, 8, 9})
+(0.82, {0, 2, 4, 5, 6, 7, 8, 9})
+(0.85, {0, 4, 5, 6, 7, 8, 9})
+(0.82, {0, 5, 6, 7, 8, 9})
+(0.85, {0, 5, 6, 7, 9})
+(0.87, {0, 9, 6, 7})
+(0.9, {0, 6, 7})
+(0.89, {0, 7})
+(0.87, {0})
+(0.84, set())
+
+
+----------------------------------------------------------------------------------------------------------------
+Forward Select Trace of our general small dataset 50
+----------------------------------------------------------------------------------------------------------------
+Adding features to (0.25, set())
+Features {0} have accuracy 0.0
+Features {1} have accuracy 0.5
+Features {2} have accuracy 1.0
+Features {3} have accuracy 0.0
+Features {4} have accuracy 0.0
+Features {5} have accuracy 1.0
+Features {6} have accuracy 0.0
+Features {7} have accuracy 0.0
+Features {8} have accuracy 0.0
+Features {9} have accuracy 0.0
+(1.0, {2}) is best choice
+
+Adding features to (1.0, {2})
+Features {0, 2} have accuracy 1.0
+Features {1, 2} have accuracy 1.0
+Features {2, 3} have accuracy 1.0
+Features {2, 4} have accuracy 1.0
+Features {2, 5} have accuracy 1.0
+Features {2, 6} have accuracy 1.0
+Features {2, 7} have accuracy 1.0
+Features {8, 2} have accuracy 1.0
+Features {9, 2} have accuracy 1.0
+(1.0, {0, 2}) is best choice
+
+Adding features to (1.0, {0, 2})
+Features {0, 1, 2} have accuracy 1.0
+Features {0, 2, 3} have accuracy 1.0
+Features {0, 2, 4} have accuracy 1.0
+Features {0, 2, 5} have accuracy 1.0
+Features {0, 2, 6} have accuracy 1.0
+Features {0, 2, 7} have accuracy 1.0
+Features {0, 8, 2} have accuracy 1.0
+Features {0, 9, 2} have accuracy 1.0
+(1.0, {0, 1, 2}) is best choice
+
+Adding features to (1.0, {0, 1, 2})
+Features {0, 1, 2, 3} have accuracy 1.0
+Features {0, 1, 2, 4} have accuracy 1.0
+Features {0, 1, 2, 5} have accuracy 1.0
+Features {0, 1, 2, 6} have accuracy 1.0
+Features {0, 1, 2, 7} have accuracy 1.0
+Features {0, 1, 2, 8} have accuracy 1.0
+Features {0, 1, 2, 9} have accuracy 1.0
+(1.0, {0, 1, 2, 3}) is best choice
+
+Adding features to (1.0, {0, 1, 2, 3})
+Features {0, 1, 2, 3, 4} have accuracy 0.75
+Features {0, 1, 2, 3, 5} have accuracy 1.0
+Features {0, 1, 2, 3, 6} have accuracy 0.75
+Features {0, 1, 2, 3, 7} have accuracy 1.0
+Features {0, 1, 2, 3, 8} have accuracy 0.75
+Features {0, 1, 2, 3, 9} have accuracy 1.0
+(1.0, {0, 1, 2, 3, 5}) is best choice
+
+Adding features to (1.0, {0, 1, 2, 3, 5})
+Features {0, 1, 2, 3, 4, 5} have accuracy 1.0
+Features {0, 1, 2, 3, 5, 6} have accuracy 1.0
+Features {0, 1, 2, 3, 5, 7} have accuracy 1.0
+Features {0, 1, 2, 3, 5, 8} have accuracy 1.0
+Features {0, 1, 2, 3, 5, 9} have accuracy 1.0
+(1.0, {0, 1, 2, 3, 4, 5}) is best choice
+
+Adding features to (1.0, {0, 1, 2, 3, 4, 5})
+Features {0, 1, 2, 3, 4, 5, 6} have accuracy 1.0
+Features {0, 1, 2, 3, 4, 5, 7} have accuracy 1.0
+Features {0, 1, 2, 3, 4, 5, 8} have accuracy 1.0
+Features {0, 1, 2, 3, 4, 5, 9} have accuracy 1.0
+(1.0, {0, 1, 2, 3, 4, 5, 6}) is best choice
+
+Adding features to (1.0, {0, 1, 2, 3, 4, 5, 6})
+Features {0, 1, 2, 3, 4, 5, 6, 7} have accuracy 1.0
+Features {0, 1, 2, 3, 4, 5, 6, 8} have accuracy 1.0
+Features {0, 1, 2, 3, 4, 5, 6, 9} have accuracy 1.0
+(1.0, {0, 1, 2, 3, 4, 5, 6, 7}) is best choice
+
+Adding features to (1.0, {0, 1, 2, 3, 4, 5, 6, 7})
+Features {0, 1, 2, 3, 4, 5, 6, 7, 8} have accuracy 1.0
+Features {0, 1, 2, 3, 4, 5, 6, 7, 9} have accuracy 1.0
+(1.0, {0, 1, 2, 3, 4, 5, 6, 7, 8}) is best choice
+
+Adding features to (1.0, {0, 1, 2, 3, 4, 5, 6, 7, 8})
+Features {0, 1, 2, 3, 4, 5, 6, 7, 8, 9} have accuracy 1.0
+(1.0, {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}) is best choice
+
+Best option for each depth:
+(0.25, set())
+(1.0, {2})
+(1.0, {0, 2})
+(1.0, {0, 1, 2})
+(1.0, {0, 1, 2, 3})
+(1.0, {0, 1, 2, 3, 5})
+(1.0, {0, 1, 2, 3, 4, 5})
+(1.0, {0, 1, 2, 3, 4, 5, 6})
+(1.0, {0, 1, 2, 3, 4, 5, 6, 7})
+(1.0, {0, 1, 2, 3, 4, 5, 6, 7, 8})
+(1.0, {0, 1, 2, 3, 4, 5, 6, 7, 8, 9})
+
+
+----------------------------------------------------------------------------------------------------------------
+Backwards Elimination Trace of our general small dataset
+----------------------------------------------------------------------------------------------------------------
+
+Eliminating features from (0.68, {0, 1, 2, 3, 4, 5, 6, 7, 8, 9})
+Features {1, 2, 3, 4, 5, 6, 7, 8, 9} have accuracy 71.0%
+Features {0, 2, 3, 4, 5, 6, 7, 8, 9} have accuracy 62.0%
+Features {0, 1, 3, 4, 5, 6, 7, 8, 9} have accuracy 73.0%
+Features {0, 1, 2, 4, 5, 6, 7, 8, 9} have accuracy 70.0%
+Features {0, 1, 2, 3, 5, 6, 7, 8, 9} have accuracy 69.0%
+Features {0, 1, 2, 3, 4, 6, 7, 8, 9} have accuracy 71.0%
+Features {0, 1, 2, 3, 4, 5, 7, 8, 9} have accuracy 62.0%
+Features {0, 1, 2, 3, 4, 5, 6, 8, 9} have accuracy 72.0%
+Features {0, 1, 2, 3, 4, 5, 6, 7, 9} have accuracy 67.0%
+Features {0, 1, 2, 3, 4, 5, 6, 7, 8} have accuracy 72.0%
+(0.73, {0, 1, 3, 4, 5, 6, 7, 8, 9}) is best choice
+
+Eliminating features from (0.73, {0, 1, 3, 4, 5, 6, 7, 8, 9})
+Features {1, 3, 4, 5, 6, 7, 8, 9} have accuracy 72.0%
+Features {0, 3, 4, 5, 6, 7, 8, 9} have accuracy 73.0%
+Features {0, 1, 4, 5, 6, 7, 8, 9} have accuracy 69.0%
+Features {0, 1, 3, 5, 6, 7, 8, 9} have accuracy 64.0%
+Features {0, 1, 3, 4, 6, 7, 8, 9} have accuracy 75.0%
+Features {0, 1, 3, 4, 5, 7, 8, 9} have accuracy 68.0%
+Features {0, 1, 3, 4, 5, 6, 8, 9} have accuracy 68.0%
+Features {0, 1, 3, 4, 5, 6, 7, 9} have accuracy 73.0%
+Features {0, 1, 3, 4, 5, 6, 7, 8} have accuracy 67.0%
+(0.75, {0, 1, 3, 4, 6, 7, 8, 9}) is best choice
+
+Eliminating features from (0.75, {0, 1, 3, 4, 6, 7, 8, 9})
+Features {1, 3, 4, 6, 7, 8, 9} have accuracy 75.0%
+Features {0, 3, 4, 6, 7, 8, 9} have accuracy 73.0%
+Features {0, 1, 4, 6, 7, 8, 9} have accuracy 64.0%
+Features {0, 1, 3, 6, 7, 8, 9} have accuracy 58.0%
+Features {0, 1, 3, 4, 7, 8, 9} have accuracy 71.0%
+Features {0, 1, 3, 4, 6, 8, 9} have accuracy 78.0%
+Features {0, 1, 3, 4, 6, 7, 9} have accuracy 77.0%
+Features {0, 1, 3, 4, 6, 7, 8} have accuracy 71.0%
+(0.78, {0, 1, 3, 4, 6, 8, 9}) is best choice
+
+Eliminating features from (0.78, {0, 1, 3, 4, 6, 8, 9})
+Features {1, 3, 4, 6, 8, 9} have accuracy 76.0%
+Features {0, 3, 4, 6, 8, 9} have accuracy 73.0%
+Features {0, 1, 4, 6, 8, 9} have accuracy 67.0%
+Features {0, 1, 3, 6, 8, 9} have accuracy 61.0%
+Features {0, 1, 3, 4, 8, 9} have accuracy 75.0%
+Features {0, 1, 3, 4, 6, 9} have accuracy 79.0%
+Features {0, 1, 3, 4, 6, 8} have accuracy 76.0%
+(0.79, {0, 1, 3, 4, 6, 9}) is best choice
+
+Eliminating features from (0.79, {0, 1, 3, 4, 6, 9})
+Features {1, 3, 4, 6, 9} have accuracy 83.0%
+Features {0, 3, 4, 6, 9} have accuracy 71.0%
+Features {0, 1, 4, 6, 9} have accuracy 75.0%
+Features {0, 1, 3, 6, 9} have accuracy 60.0%
+Features {0, 1, 3, 4, 9} have accuracy 75.0%
+Features {0, 1, 3, 4, 6} have accuracy 77.0%
+(0.83, {1, 3, 4, 6, 9}) is best choice
+
+Eliminating features from (0.83, {1, 3, 4, 6, 9})
+Features {9, 3, 4, 6} have accuracy 79.0%
+Features {1, 4, 6, 9} have accuracy 81.0%
+Features {1, 3, 6, 9} have accuracy 71.0%
+Features {1, 3, 4, 9} have accuracy 76.0%
+Features {1, 3, 4, 6} have accuracy 76.0%
+(0.81, {1, 4, 6, 9}) is best choice
+
+Eliminating features from (0.81, {1, 4, 6, 9})
+Features {9, 4, 6} have accuracy 75.0%
+Features {1, 6, 9} have accuracy 68.0%
+Features {1, 4, 9} have accuracy 72.0%
+Features {1, 4, 6} have accuracy 77.0%
+(0.77, {1, 4, 6}) is best choice
+
+Eliminating features from (0.77, {1, 4, 6})
+Features {4, 6} have accuracy 80.0%
+Features {1, 6} have accuracy 54.0%
+Features {1, 4} have accuracy 80.0%
+(0.8, {4, 6}) is best choice
+
+Eliminating features from (0.8, {4, 6})
+Features {6} have accuracy 62.0%
+Features {4} have accuracy 75.0%
+(0.75, {4}) is best choice
+
+Eliminating features from (0.75, {4})
+Features set() have accuracy 75.0%
+(0.75, set()) is best choice
+
+Best option for each depth:
+(0.68, {0, 1, 2, 3, 4, 5, 6, 7, 8, 9})
+(0.73, {0, 1, 3, 4, 5, 6, 7, 8, 9})
+(0.75, {0, 1, 3, 4, 6, 7, 8, 9})
+(0.78, {0, 1, 3, 4, 6, 8, 9})
+(0.79, {0, 1, 3, 4, 6, 9})
+(0.83, {1, 3, 4, 6, 9})
+(0.81, {1, 4, 6, 9})
+(0.77, {1, 4, 6})
+(0.8, {4, 6})
+(0.75, {4})
+(0.75, set())
